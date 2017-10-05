@@ -17,7 +17,7 @@ body {
 	padding: 50px 0 50px 0;
 }
 .container-wrap {
-	padding: 50px 50px 0 50px;
+	padding: 50px;
 	display: grid;
 	grid-template: 2fr 2fr 2fr 2fr / 3fr 3fr 3fr 3fr;
 	grid-gap: 20px;
@@ -747,13 +747,14 @@ h3 {
 	margin: 2px 15px 0 0;
 }
 h3, .fa-external-link {
-	color: rgba(50,50,50, 0.5);
+	color: rgba(50,50,50,0.5);
 	padding: 10px 0 10px 0;
 }
 /**/
 @media (max-width: 1350px) {
 	.container-wrap {
 		grid-template: repeat(5, 2fr)/ repeat(3, 3fr);
+		padding: 50px;
 	}
 	.locate {
 		margin: 3px 146px 0 0;
